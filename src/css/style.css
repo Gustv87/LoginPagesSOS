@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    background: #ffffff;
+}
+
+.header {
+    color: #ffffff;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.divImg {
+    position: relative;
+}
+
+.btnLogin {
+    background: #FE0000;
+    position: absolute;
+    top: 87%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    border-color: #ffffff;
+}
+
+.btnLogin:hover {
+    content: "f2f6";
+    font-size: 15px;
+    color: #FE0000;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    border-color: #FE0000;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+.rutasColumnas img {
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px black;
+}
+
+/* .rutasColumnas img:hover {
+    box-shadow: 1px 5px 5px 1px black;
+} */
+
+.rutasColumnas {
+    margin: 15px;
+}
+
+.rutas .contenedor {
+    display: grid;
+    background: white;
+}
+
+.footer {
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    bottom: 0;
+}
+
+.linea {
+    margin-top: 50px;
+    border: 5px solid #FF0000;
+}
+
+.footer p {
+    margin-top: 25px;
+}
+
+@media(min-width:230px) {
+    .rutas .contenedor {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .header .imgHeader {
+        height: 125px;
+        width: 100%;
+    }
+}
+
+@media(min-width:360px) {
+    .rutas .contenedor {
+        grid-template-columns: repeat(1, 100%);
+    }
+    .header .imgHeader {
+        height: 240px;
+        width: 100%;
+    }
+}
+
+@media(min-width:520px) {
+    .rutas .contenedor {
+        grid-template-columns: repeat(2, 50%);
+        left: 20px;
+    }
+    .header .imgHeader {
+        height: 292px;
+        width: 100%;
+    }
+}
+
+@media(min-width:720px) {
+    .rutas .contenedor {
+        grid-template-columns: repeat(2, 50%);
+    }
+    .header .imgHeader {
+        height: 237px;
+        width: 100%;
+    }
+}
+
+@media(min-width:1024px) {
+    .rutas .contenedor {
+        grid-template-columns: repeat(4, 25%);
+    }
+    .contenedor {
+        width: 1024px;
+    }
+    .header .imgHeader {
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media(min-width:1200px) {
+    .contenedor {
+        width: 1200px;
+    }
+    .header .imgHeader {
+        width: 100%;
+        height: 480px;
+    }
+}
