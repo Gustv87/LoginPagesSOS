@@ -11,5 +11,7 @@ const url = {
   fds: 'https://fds.app.sostruckingsoftware.com:8043/account/login',
   aqi: 'http://aqilogistic.sostruckingsoftware.com:8038/account/login',
   ae: 'https://avalanche.app.sostruckingsoftware.com/account/login',
-  pc: 'http://pcexpress.app.sostruckingsoftware.com/account/login'
+  pc: 'http://pcexpress.app.sostruckingsoftware.com/account/login',
+  akt: 'https://akt.sostruckingsoftware.com/account/login'
 };
+
